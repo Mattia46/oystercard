@@ -25,7 +25,12 @@ describe Journey do
       journey1.exit_station = station2
       expect(journey1.complete).to eq true
     end
-  end
+
+    it 'has an exit station' do
+      journey1.exit_station = station2
+      expect(journey1.exit_station).to eq station2
+    end
+   end
 
 
 end

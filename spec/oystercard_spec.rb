@@ -67,7 +67,9 @@ describe Oystercard do
   context 'deduct' do
     it 'the fare has been deducted' do
       topped_up.touch_in station1
-      expect {topped_up.touch_out station2}.to change {topped_up.balance}.by -topped_up.journey.fare
+      topped_up.touch_out station2
+      faretest = topped_up.journey.fare
+      expect {topped_up.touch_out station2}.to change {topped_up.balance}.by -faretest
     end
   end
 end
