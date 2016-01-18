@@ -55,9 +55,10 @@ To run the test:
 
 ```
 ```
-git clone https://github.com/Mattia46/oystercard
-gem install bundle
-bundle
-
-rspec
+$ git clone https://github.com/Mattia46/oystercard
+$ gem install bundle
+$ bundle
+```
+```
+$ rspec
 ```
