@@ -62,7 +62,7 @@ Learn the Dependency injections, Single Responsability principle and Test Driver
 * Ruby
 * Rspec
 
-## How too run the test:
+## How to run the test:
 
 ```
 $ git clone https://github.com/Mattia46/oystercard
