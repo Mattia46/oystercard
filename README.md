@@ -1,6 +1,8 @@
 # Oystercard
 
-### User stories
+This app reproduce the London Oystercard
+
+## User stories
 
 ``` 
 In order to use public transport
@@ -50,10 +52,9 @@ I need a penalty charge deducted if I fail to touch in or out
 In order to be charged the correct amount
 As a customer
 I need to have the correct fare calculated
-
-To run the test:
-
 ```
+## How too run the test:
+
 ```
 $ git clone https://github.com/Mattia46/oystercard
 $ gem install bundle
